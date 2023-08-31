@@ -1,0 +1,14 @@
+server:
+  forward-headers-strategy: framework
+  port: 8080
+  error:
+    include-message: always
+
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 430186522129-7gprs4vkrmfjggh9m1ufp0tqk57mn9jq.apps.googleusercontent.com
+            client-secret: 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
